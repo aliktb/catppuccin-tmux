@@ -54,7 +54,7 @@ If you do not have a patched font installed, you can override or remove any icon
 2. Add the Catppuccin plugin:
 
 ```bash
-set -g @plugin 'catppuccin/tmux'
+set -g @plugin 'aliktb/catppuccin-tmux'
 # ...alongside
 set -g @plugin 'tmux-plugins/tpm'
 ```
@@ -276,6 +276,7 @@ Available modules:
 - host - display the hostname
 - date_time - display the date and time
 - [battery](#battery-module) - display the battery
+- kube - display the current Kubernetes context
 
 ### Customizing modules
 
